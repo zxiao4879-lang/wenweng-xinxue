@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/wenweng-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 73,
+      "top": 14,
+      "width": 223,
+      "height": 329
+    },
+    {
+      "part": 1,
+      "left": 443,
+      "top": 17,
+      "width": 198,
+      "height": 331
+    },
+    {
+      "part": 2,
+      "left": 834,
+      "top": 21,
+      "width": 138,
+      "height": 323
+    },
+    {
+      "part": 3,
+      "left": 1209,
+      "top": 21,
+      "width": 117,
+      "height": 319
+    },
+    {
+      "part": 4,
+      "left": 111,
+      "top": 379,
+      "width": 144,
+      "height": 319
+    },
+    {
+      "part": 5,
+      "left": 479,
+      "top": 381,
+      "width": 126,
+      "height": 315
+    },
+    {
+      "part": 6,
+      "left": 827,
+      "top": 378,
+      "width": 150,
+      "height": 318
+    },
+    {
+      "part": 7,
+      "left": 1208,
+      "top": 379,
+      "width": 136,
+      "height": 316
+    },
+    {
+      "part": 8,
+      "left": 104,
+      "top": 724,
+      "width": 151,
+      "height": 321
+    },
+    {
+      "part": 9,
+      "left": 465,
+      "top": 724,
+      "width": 133,
+      "height": 325
+    },
+    {
+      "part": 10,
+      "left": 759,
+      "top": 779,
+      "width": 291,
+      "height": 222
+    },
+    {
+      "part": 11,
+      "left": 1128,
+      "top": 772,
+      "width": 275,
+      "height": 221
+    }
+  ]
+}

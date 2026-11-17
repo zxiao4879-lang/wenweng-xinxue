@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#203e36" />
+  <meta name="description" content="与小马翁一起走进成都水墨长卷，游历四站，集齐清廉。码上清廉第10期互动游戏。" />
+  <title>廉字闯关 · 成都长卷｜码上清廉</title>
+  <link rel="icon" type="image/svg+xml" href="/wenweng-xinxue/favicon.svg" />
+  <script type="module" crossorigin src="/wenweng-xinxue/assets/game-6ykTFtwv.js"></script>
+  <link rel="modulepreload" crossorigin href="/wenweng-xinxue/assets/rig2d-R8W5EXiv.js">
+  <link rel="stylesheet" crossorigin href="/wenweng-xinxue/assets/game-8R_Nir95.css">
+</head>
+<body>
+  <div id="app">
+    <div id="world" aria-hidden="true"></div>
+    <img id="scene-foreground" src="/wenweng-xinxue/art/academy-foreground-v2.webp" alt="" aria-hidden="true" hidden />
+    <div class="paper-grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#" id="brand-home" aria-label="打开游历菜单"><span class="brand-seal">廉</span><span>码上清廉<small>第十期 · 成都篇</small></span></a>
+      <nav id="route" aria-label="四站游历路线"></nav>
+      <div class="tools">
+        <button id="sound" class="icon-button" aria-label="开启声音" title="开启声音">♪<span class="sound-off"></span></button>
+        <button id="journal" class="icon-button" aria-label="打开通关文牒" title="通关文牒">▤</button>
+        <button id="settings" class="icon-button" aria-label="设置" title="设置"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/></svg></button>
+        <button id="fullscreen" class="icon-button" aria-label="全屏游玩" title="全屏游玩">⛶</button>
+      </div>
+    </header>
+    <main id="ui"></main>
+    <aside id="collection" hidden aria-label="清廉集字进度"></aside>
+    <div id="scene-caption" aria-hidden="true"></div>
+    <footer class="footer"><span>码上清廉，小故事悟大道理。</span><button id="about">创作说明</button></footer>
+    <div id="overlay" hidden></div>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <div id="orientation" hidden><span>↻</span>横屏展开，长卷更好看<button id="dismiss-orientation" aria-label="关闭横屏提示">×</button></div>
+    <div id="loading"><span class="loading-seal">廉</span><p>正在展开成都长卷…</p><span id="loading-progress">山水入卷 · 静候片刻</span></div>
+  </div>
+</body>
+</html>

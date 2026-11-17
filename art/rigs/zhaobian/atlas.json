@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/zhaobian-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 18,
+      "top": 26,
+      "width": 366,
+      "height": 324
+    },
+    {
+      "part": 1,
+      "left": 458,
+      "top": 19,
+      "width": 210,
+      "height": 332
+    },
+    {
+      "part": 2,
+      "left": 826,
+      "top": 24,
+      "width": 143,
+      "height": 327
+    },
+    {
+      "part": 3,
+      "left": 1201,
+      "top": 19,
+      "width": 135,
+      "height": 332
+    },
+    {
+      "part": 4,
+      "left": 119,
+      "top": 381,
+      "width": 146,
+      "height": 332
+    },
+    {
+      "part": 5,
+      "left": 473,
+      "top": 376,
+      "width": 137,
+      "height": 333
+    },
+    {
+      "part": 6,
+      "left": 816,
+      "top": 376,
+      "width": 168,
+      "height": 333
+    },
+    {
+      "part": 7,
+      "left": 1200,
+      "top": 376,
+      "width": 143,
+      "height": 343
+    },
+    {
+      "part": 8,
+      "left": 101,
+      "top": 739,
+      "width": 173,
+      "height": 328
+    },
+    {
+      "part": 9,
+      "left": 461,
+      "top": 735,
+      "width": 146,
+      "height": 336
+    },
+    {
+      "part": 10,
+      "left": 793,
+      "top": 768,
+      "width": 209,
+      "height": 277
+    },
+    {
+      "part": 11,
+      "left": 1193,
+      "top": 793,
+      "width": 129,
+      "height": 230
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/shengongbao-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 70,
+      "top": 10,
+      "width": 258,
+      "height": 348
+    },
+    {
+      "part": 1,
+      "left": 437,
+      "top": 11,
+      "width": 243,
+      "height": 347
+    },
+    {
+      "part": 2,
+      "left": 839,
+      "top": 24,
+      "width": 142,
+      "height": 314
+    },
+    {
+      "part": 3,
+      "left": 1196,
+      "top": 12,
+      "width": 143,
+      "height": 334
+    },
+    {
+      "part": 4,
+      "left": 136,
+      "top": 377,
+      "width": 128,
+      "height": 326
+    },
+    {
+      "part": 5,
+      "left": 481,
+      "top": 377,
+      "width": 124,
+      "height": 331
+    },
+    {
+      "part": 6,
+      "left": 841,
+      "top": 377,
+      "width": 132,
+      "height": 325
+    },
+    {
+      "part": 7,
+      "left": 1210,
+      "top": 377,
+      "width": 153,
+      "height": 324
+    },
+    {
+      "part": 8,
+      "left": 115,
+      "top": 742,
+      "width": 138,
+      "height": 324
+    },
+    {
+      "part": 9,
+      "left": 449,
+      "top": 742,
+      "width": 153,
+      "height": 325
+    },
+    {
+      "part": 10,
+      "left": 834,
+      "top": 746,
+      "width": 145,
+      "height": 310
+    },
+    {
+      "part": 11,
+      "left": 1190,
+      "top": 829,
+      "width": 164,
+      "height": 146
+    }
+  ]
+}

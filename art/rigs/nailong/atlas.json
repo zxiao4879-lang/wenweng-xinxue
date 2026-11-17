@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/nailong-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 25,
+      "top": 19,
+      "width": 348,
+      "height": 343
+    },
+    {
+      "part": 1,
+      "left": 416,
+      "top": 72,
+      "width": 292,
+      "height": 290
+    },
+    {
+      "part": 2,
+      "left": 827,
+      "top": 79,
+      "width": 161,
+      "height": 264
+    },
+    {
+      "part": 3,
+      "left": 1198,
+      "top": 77,
+      "width": 132,
+      "height": 267
+    },
+    {
+      "part": 4,
+      "left": 122,
+      "top": 362,
+      "width": 157,
+      "height": 319
+    },
+    {
+      "part": 5,
+      "left": 471,
+      "top": 362,
+      "width": 133,
+      "height": 323
+    },
+    {
+      "part": 6,
+      "left": 796,
+      "top": 419,
+      "width": 208,
+      "height": 259
+    },
+    {
+      "part": 7,
+      "left": 1188,
+      "top": 427,
+      "width": 154,
+      "height": 240
+    },
+    {
+      "part": 8,
+      "left": 93,
+      "top": 761,
+      "width": 210,
+      "height": 266
+    },
+    {
+      "part": 9,
+      "left": 468,
+      "top": 775,
+      "width": 157,
+      "height": 241
+    },
+    {
+      "part": 10,
+      "left": 781,
+      "top": 812,
+      "width": 247,
+      "height": 170
+    },
+    {
+      "part": 11,
+      "left": 1124,
+      "top": 778,
+      "width": 277,
+      "height": 238
+    }
+  ]
+}

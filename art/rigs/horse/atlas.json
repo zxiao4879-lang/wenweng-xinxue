@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/horse-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 66,
+      "top": 32,
+      "width": 310,
+      "height": 317
+    },
+    {
+      "part": 1,
+      "left": 432,
+      "top": 39,
+      "width": 239,
+      "height": 310
+    },
+    {
+      "part": 2,
+      "left": 843,
+      "top": 51,
+      "width": 119,
+      "height": 275
+    },
+    {
+      "part": 3,
+      "left": 1210,
+      "top": 62,
+      "width": 99,
+      "height": 266
+    },
+    {
+      "part": 4,
+      "left": 128,
+      "top": 408,
+      "width": 120,
+      "height": 277
+    },
+    {
+      "part": 5,
+      "left": 494,
+      "top": 420,
+      "width": 99,
+      "height": 265
+    },
+    {
+      "part": 6,
+      "left": 828,
+      "top": 394,
+      "width": 154,
+      "height": 297
+    },
+    {
+      "part": 7,
+      "left": 1197,
+      "top": 396,
+      "width": 126,
+      "height": 297
+    },
+    {
+      "part": 8,
+      "left": 103,
+      "top": 756,
+      "width": 156,
+      "height": 299
+    },
+    {
+      "part": 9,
+      "left": 479,
+      "top": 759,
+      "width": 129,
+      "height": 295
+    },
+    {
+      "part": 10,
+      "left": 825,
+      "top": 775,
+      "width": 153,
+      "height": 272
+    },
+    {
+      "part": 11,
+      "left": 1151,
+      "top": 850,
+      "width": 202,
+      "height": 139
+    }
+  ]
+}

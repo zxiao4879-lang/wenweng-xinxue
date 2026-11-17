@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/libing-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 40,
+      "top": 21,
+      "width": 305,
+      "height": 322
+    },
+    {
+      "part": 1,
+      "left": 420,
+      "top": 12,
+      "width": 244,
+      "height": 343
+    },
+    {
+      "part": 2,
+      "left": 827,
+      "top": 18,
+      "width": 157,
+      "height": 328
+    },
+    {
+      "part": 3,
+      "left": 1183,
+      "top": 14,
+      "width": 153,
+      "height": 337
+    },
+    {
+      "part": 4,
+      "left": 103,
+      "top": 379,
+      "width": 165,
+      "height": 329
+    },
+    {
+      "part": 5,
+      "left": 463,
+      "top": 375,
+      "width": 150,
+      "height": 331
+    },
+    {
+      "part": 6,
+      "left": 820,
+      "top": 376,
+      "width": 170,
+      "height": 334
+    },
+    {
+      "part": 7,
+      "left": 1192,
+      "top": 373,
+      "width": 153,
+      "height": 341
+    },
+    {
+      "part": 8,
+      "left": 90,
+      "top": 738,
+      "width": 179,
+      "height": 333
+    },
+    {
+      "part": 9,
+      "left": 475,
+      "top": 732,
+      "width": 148,
+      "height": 343
+    },
+    {
+      "part": 10,
+      "left": 889,
+      "top": 736,
+      "width": 34,
+      "height": 337
+    },
+    {
+      "part": 11,
+      "left": 1209,
+      "top": 793,
+      "width": 106,
+      "height": 227
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "source": "source-art/rigs/ggbond-atlas.png",
+  "parts": [
+    {
+      "part": 0,
+      "left": 20,
+      "top": 26,
+      "width": 337,
+      "height": 315
+    },
+    {
+      "part": 1,
+      "left": 409,
+      "top": 61,
+      "width": 266,
+      "height": 275
+    },
+    {
+      "part": 2,
+      "left": 824,
+      "top": 51,
+      "width": 141,
+      "height": 274
+    },
+    {
+      "part": 3,
+      "left": 1195,
+      "top": 46,
+      "width": 132,
+      "height": 292
+    },
+    {
+      "part": 4,
+      "left": 112,
+      "top": 401,
+      "width": 149,
+      "height": 283
+    },
+    {
+      "part": 5,
+      "left": 472,
+      "top": 395,
+      "width": 135,
+      "height": 294
+    },
+    {
+      "part": 6,
+      "left": 815,
+      "top": 397,
+      "width": 165,
+      "height": 286
+    },
+    {
+      "part": 7,
+      "left": 1179,
+      "top": 394,
+      "width": 154,
+      "height": 298
+    },
+    {
+      "part": 8,
+      "left": 97,
+      "top": 753,
+      "width": 171,
+      "height": 282
+    },
+    {
+      "part": 9,
+      "left": 466,
+      "top": 755,
+      "width": 156,
+      "height": 293
+    },
+    {
+      "part": 10,
+      "left": 757,
+      "top": 792,
+      "width": 268,
+      "height": 228
+    },
+    {
+      "part": 11,
+      "left": 1155,
+      "top": 818,
+      "width": 222,
+      "height": 162
+    }
+  ]
+}
