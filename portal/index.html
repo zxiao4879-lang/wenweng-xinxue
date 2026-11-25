@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eee9dd">
+  <title>码上清廉 · 作品选择</title>
+  <style>
+    :root { color-scheme: light; font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; color: #263c35; background: #eee9dd; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 280px; background: #eee9dd; }
+    .page { min-height: 100svh; max-width: 600px; margin: 0 auto; padding: max(32px, env(safe-area-inset-top)) 24px max(30px, env(safe-area-inset-bottom)); display: flex; flex-direction: column; }
+    .topline { display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: .19em; font-weight: 700; color: #53685d; }
+    .seal { flex: 0 0 auto; width: 32px; height: 32px; display: grid; place-items: center; background: #a54434; color: #fff9ed; font-family: "Songti SC", "SimSun", serif; font-size: 19px; letter-spacing: 0; }
+    header { padding: clamp(44px, 9vh, 72px) 0 31px; }
+    .eyebrow { margin: 0 0 14px; color: #8c5542; font-size: 13px; font-weight: 700; letter-spacing: .14em; }
+    h1 { margin: 0; font-family: "Songti SC", "STSong", "SimSun", serif; font-size: clamp(38px, 10vw, 54px); line-height: 1.2; letter-spacing: .08em; font-weight: 700; }
+    .subtitle { margin: 17px 0 0; color: #56675c; font-size: 15px; line-height: 1.8; }
+    .section-label { display: flex; align-items: center; gap: 14px; margin: 0 0 14px; color: #637168; font-size: 12px; letter-spacing: .15em; }
+    .section-label::after { content: ""; flex: 1; height: 1px; background: #c9c9ba; }
+    .choices { display: grid; gap: 12px; }
+    .choice { position: relative; display: flex; align-items: center; gap: 17px; min-height: 122px; padding: 22px 20px; color: inherit; background: #fbf9f2; text-decoration: none; border: 1px solid #dedccd; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; -webkit-tap-highlight-color: transparent; }
+    .choice:hover { border-color: #8d9b87; box-shadow: 0 8px 24px rgba(42, 58, 48, .08); transform: translateY(-2px); }
+    .choice:focus-visible { outline: 3px solid #a54434; outline-offset: 3px; }
+    .number { align-self: flex-start; padding-top: 3px; font-family: Georgia, serif; font-size: 13px; color: #a25846; letter-spacing: .04em; }
+    .content { flex: 1; min-width: 0; }
+    .choice h2 { margin: 0 0 9px; font-family: "Songti SC", "STSong", "SimSun", serif; font-size: 24px; line-height: 1.25; letter-spacing: .05em; }
+    .choice p { margin: 0; color: #647168; font-size: 14px; line-height: 1.55; }
+    .arrow { display: grid; place-items: center; flex: 0 0 36px; height: 36px; border: 1px solid #bdc6b9; border-radius: 50%; color: #40584b; font-size: 21px; line-height: 1; }
+    footer { margin-top: auto; padding-top: 36px; color: #788478; font-size: 12px; line-height: 1.7; letter-spacing: .05em; }
+    @media (max-width: 340px) { .page { padding-left: 18px; padding-right: 18px; } header { padding-top: 38px; } .choice { padding: 18px 15px; gap: 12px; min-height: 110px; } .choice h2 { font-size: 22px; } }
+    @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="topline"><span class="seal" aria-hidden="true">廉</span><span>码上清廉 · 数字作品</span></div>
+    <header>
+      <p class="eyebrow">扫码体验 · 选择作品</p>
+      <h1>码上清廉</h1>
+      <p class="subtitle">请选择你想体验的内容</p>
+    </header>
+    <p class="section-label">作品入口</p>
+    <nav class="choices" aria-label="选择作品">
+      <a class="choice" href="https://279542.github.io/wenweng-xinxue/">
+        <span class="number" aria-hidden="true">01</span>
+        <span class="content"><h2>文翁篇</h2><p>走进文翁兴学的故事</p></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="choice" href="https://zxiao4879-lang.github.io/wenweng-xinxue/">
+        <span class="number" aria-hidden="true">02</span>
+        <span class="content"><h2>廉字闯关</h2><p>在互动闯关中感受廉洁文化</p></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+    <footer>点击作品，即可开始体验</footer>
+  </main>
+</body>
+</html>
