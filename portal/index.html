@@ -1,59 +1,27 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#eee9dd">
-  <title>码上清廉 · 作品选择</title>
-  <style>
-    :root { color-scheme: light; font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; color: #263c35; background: #eee9dd; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-width: 280px; background: #eee9dd; }
-    .page { min-height: 100svh; max-width: 600px; margin: 0 auto; padding: max(32px, env(safe-area-inset-top)) 24px max(30px, env(safe-area-inset-bottom)); display: flex; flex-direction: column; }
-    .topline { display: flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: .19em; font-weight: 700; color: #53685d; }
-    .seal { flex: 0 0 auto; width: 32px; height: 32px; display: grid; place-items: center; background: #a54434; color: #fff9ed; font-family: "Songti SC", "SimSun", serif; font-size: 19px; letter-spacing: 0; }
-    header { padding: clamp(44px, 9vh, 72px) 0 31px; }
-    .eyebrow { margin: 0 0 14px; color: #8c5542; font-size: 13px; font-weight: 700; letter-spacing: .14em; }
-    h1 { margin: 0; font-family: "Songti SC", "STSong", "SimSun", serif; font-size: clamp(38px, 10vw, 54px); line-height: 1.2; letter-spacing: .08em; font-weight: 700; }
-    .subtitle { margin: 17px 0 0; color: #56675c; font-size: 15px; line-height: 1.8; }
-    .section-label { display: flex; align-items: center; gap: 14px; margin: 0 0 14px; color: #637168; font-size: 12px; letter-spacing: .15em; }
-    .section-label::after { content: ""; flex: 1; height: 1px; background: #c9c9ba; }
-    .choices { display: grid; gap: 12px; }
-    .choice { position: relative; display: flex; align-items: center; gap: 17px; min-height: 122px; padding: 22px 20px; color: inherit; background: #fbf9f2; text-decoration: none; border: 1px solid #dedccd; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; -webkit-tap-highlight-color: transparent; }
-    .choice:hover { border-color: #8d9b87; box-shadow: 0 8px 24px rgba(42, 58, 48, .08); transform: translateY(-2px); }
-    .choice:focus-visible { outline: 3px solid #a54434; outline-offset: 3px; }
-    .number { align-self: flex-start; padding-top: 3px; font-family: Georgia, serif; font-size: 13px; color: #a25846; letter-spacing: .04em; }
-    .content { flex: 1; min-width: 0; }
-    .choice h2 { margin: 0 0 9px; font-family: "Songti SC", "STSong", "SimSun", serif; font-size: 24px; line-height: 1.25; letter-spacing: .05em; }
-    .choice p { margin: 0; color: #647168; font-size: 14px; line-height: 1.55; }
-    .arrow { display: grid; place-items: center; flex: 0 0 36px; height: 36px; border: 1px solid #bdc6b9; border-radius: 50%; color: #40584b; font-size: 21px; line-height: 1; }
-    footer { margin-top: auto; padding-top: 36px; color: #788478; font-size: 12px; line-height: 1.7; letter-spacing: .05em; }
-    @media (max-width: 340px) { .page { padding-left: 18px; padding-right: 18px; } header { padding-top: 38px; } .choice { padding: 18px 15px; gap: 12px; min-height: 110px; } .choice h2 { font-size: 22px; } }
-    @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f0e4">
+<title>码上清廉 · 作品选择</title>
+<style>
+:root{color-scheme:light;--ink:#243e34;--muted:#66766a;--red:#ad4936;--paper:#f5f0e4;font-family:"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:#e5dfd0}
+*{box-sizing:border-box}body{margin:0;min-width:280px}.page{max-width:560px;min-height:100vh;margin:auto;padding:25px 22px 30px;background:var(--paper);overflow:hidden;position:relative;box-shadow:0 0 48px #33433718}
+.brand{display:flex;align-items:center;gap:10px;color:#52685a;font-size:12px;font-weight:700;letter-spacing:.17em}.seal{width:30px;height:30px;background:#ac4a38;color:#fff9ec;display:grid;place-items:center;font:19px "Songti SC",SimSun,serif;letter-spacing:0;border-radius:3px}
+header{position:relative;padding:29px 0 27px;border-bottom:1px solid #d8d1be;min-height:187px}.eyebrow{color:#a44c39;font-size:11px;font-weight:700;letter-spacing:.18em;margin:0 0 10px}h1{font-family:"Songti SC","STSong",SimSun,serif;font-size:clamp(37px,10vw,48px);letter-spacing:.1em;margin:0;line-height:1.2;font-weight:700}.subtitle{font-size:14px;line-height:1.65;color:#667368;margin:10px 0 0;max-width:220px}.pony{position:absolute;right:0;bottom:-5px;width:clamp(88px,29vw,130px);height:148px;object-fit:contain;object-position:bottom right;pointer-events:none}
+.section-head{display:flex;align-items:end;justify-content:space-between;margin:23px 1px 13px}.section-head h2{font-family:"Songti SC","STSong",SimSun,serif;font-size:19px;letter-spacing:.1em;margin:0}.section-head span{font-size:11px;color:#7d897d;letter-spacing:.05em}.choices{display:grid;gap:14px}
+.choice{height:174px;display:block;position:relative;overflow:hidden;text-decoration:none;color:#fffaf0;border-radius:9px;background:#425b49;box-shadow:0 8px 18px #39412d1c;isolation:isolate}.choice.story{background-color:#795335;background-image:linear-gradient(90deg,rgba(31,37,28,.89) 0%,rgba(36,42,30,.70) 44%,rgba(42,48,32,.10) 100%),url('https://279542.github.io/wenweng-xinxue/assets/bg-classroom-v2.webp');background-size:cover;background-position:center 46%}.choice.game{background-color:#566e5b;background-image:linear-gradient(90deg,rgba(27,52,41,.92) 0%,rgba(32,60,46,.76) 44%,rgba(44,67,49,.14) 100%),url('https://zxiao4879-lang.github.io/wenweng-xinxue/art/mobile/academy-courtyard-v2.webp');background-size:cover;background-position:center}
+.choice:focus-visible{outline:3px solid #b5513b;outline-offset:4px}.choice:active{transform:scale(.99)}.content{position:absolute;inset:0;padding:19px 20px;display:flex;flex-direction:column;align-items:flex-start}.tag{font-size:11px;letter-spacing:.15em;color:#f3dcae;margin-bottom:auto}.choice h3{font-family:"Songti SC","STSong",SimSun,serif;font-size:28px;letter-spacing:.08em;line-height:1.1;margin:0 0 8px;text-shadow:0 1px 3px #17261c99}.choice p{font-size:13px;line-height:1.5;margin:0;color:#fff8e7;text-shadow:0 1px 3px #17261c}.go{position:absolute;right:18px;bottom:18px;width:38px;height:38px;display:grid;place-items:center;border:1px solid #fffdf2b5;border-radius:50%;font-size:22px;background:#263d3266;color:white}
+footer{text-align:center;margin-top:24px;color:#899386;font-size:11px;letter-spacing:.15em}.dot{color:#ad5541;padding:0 8px}@media(max-width:340px){.page{padding:20px 17px 26px}header{padding-top:24px;min-height:174px}.pony{width:98px;height:125px}.choice{height:158px}.content{padding:16px 17px}.choice h3{font-size:25px}.choice p{font-size:12px}.section-head{margin-top:19px}}
+</style>
 </head>
-<body>
-  <main class="page">
-    <div class="topline"><span class="seal" aria-hidden="true">廉</span><span>码上清廉 · 数字作品</span></div>
-    <header>
-      <p class="eyebrow">扫码体验 · 选择作品</p>
-      <h1>码上清廉</h1>
-      <p class="subtitle">请选择你想体验的内容</p>
-    </header>
-    <p class="section-label">作品入口</p>
-    <nav class="choices" aria-label="选择作品">
-      <a class="choice" href="https://279542.github.io/wenweng-xinxue/">
-        <span class="number" aria-hidden="true">01</span>
-        <span class="content"><h2>文翁篇</h2><p>走进文翁兴学的故事</p></span>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
-      <a class="choice" href="https://zxiao4879-lang.github.io/wenweng-xinxue/">
-        <span class="number" aria-hidden="true">02</span>
-        <span class="content"><h2>廉字闯关</h2><p>在互动闯关中感受廉洁文化</p></span>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
-    </nav>
-    <footer>点击作品，即可开始体验</footer>
-  </main>
-</body>
-</html>
+<body><main class="page">
+<div class="brand"><span class="seal" aria-hidden="true">廉</span><span>码上清廉 · 数字作品</span></div>
+<header><p class="eyebrow">故事与游历，从这里开始</p><h1>码上清廉</h1><p class="subtitle">跟随小马翁<br>一起开启清廉之旅</p><img class="pony" src="https://279542.github.io/wenweng-xinxue/assets/xm-orange-idle.webp" alt="" aria-hidden="true"></header>
+<div class="section-head"><h2>选择作品</h2><span>点击进入体验</span></div>
+<nav class="choices" aria-label="选择作品">
+<a class="choice story" href="https://279542.github.io/wenweng-xinxue/"><span class="content"><span class="tag">互动故事 · 文翁兴学</span><h3>文翁篇</h3><p>走进一段兴学育人的故事</p><span class="go" aria-hidden="true">→</span></span></a>
+<a class="choice game" href="https://zxiao4879-lang.github.io/wenweng-xinxue/"><span class="content"><span class="tag">互动闯关 · 成都长卷</span><h3>廉字闯关</h3><p>游历成都，解锁清廉故事</p><span class="go" aria-hidden="true">→</span></span></a>
+</nav><footer>小故事<span class="dot">·</span>悟大道理</footer>
+</main></body></html>
